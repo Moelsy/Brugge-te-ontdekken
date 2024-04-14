@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Brugge</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+        <style type="text/css">
+            [class*="col-"]
+            {
+            width: 100%;
+            }
+            @media only screen and (min-width: 768px) 
+            {
+            [class*="col-"]
+            {
+            float: left;
+            padding: 10px;
+            }
+    
+            .col-1 {width: 8.33%;}
+            .col-2 {width: 16.66%;}
+            .col-3 {width: 25%;}
+            .col-4 {width: 33.33%;}
+            .col-5 {width: 41.66%;}
+            .col-6 {width: 50%;}
+            .col-7 {width: 58.33%;}
+            .col-8 {width: 66.66%;}
+            .col-9 {width: 75%;}
+            .col-10 {width: 83.33%;}
+            .col-11 {width: 91.66%;}
+            .col-12 {width: 100%;}
+            }
+
+            /*media-query, mobile first coding*/
+            body
+            {
+            background-color: rgb(230, 230, 230)
+            }
+            @media only screen and (min-width: 768px)
+            {  
+            body
+            {
+            background-color: rgb(230, 230, 230);
+            }
+            }
+
+            /*Stijl van titels*/
+            h1, h2
+            {
+            font-weight: bold;
+            text-align: center;
+            }
+
+            header
+            {
+            height: 300px;
+            font-family: Mulish, sans-serif;
+            font-size: 20px;
+            text-align: center;
+            background-image: url(Brugge.jpg);
+            color: black;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            border-radius: 5%;
+            }
+
+            .title
+            {
+            background-color: rgb(230, 230, 230);
+            color: black;
+            border-radius: 5%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 20%;
+            }
+
+            /*Stijl van links*/
+            ul
+            {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            }
+    
+            li
+            {
+            padding: 5px;
+            margin-bottom: 7px;
+            background-color:rgb(0, 58, 175);
+            border-radius: 10px;
+            color: white;
+            }
+    
+            li:hover
+            {
+            background-color: rgb(192, 192, 192);
+            color: black;
+            }
+
+            /*Stijl van rechts*/
+            .content h2
+            {
+            font-family: Playfair Display, serif;
+            text-align: center;
+            font-size: 18px;
+            padding: 5px;
+            margin: 0px 8px 0px 8px auto;
+            }
+
+            p
+            {
+            font-family: Playfair Display, serif;
+            font-size: 12px;
+            padding: 5px;
+            margin: 0px 8px 0px 8px auto;
+            }
+
+            .content
+            {
+            background-color: rgb(230, 230, 230);
+            justify-content: right;
+            align-items:right;
+            padding: 5px;
+            margin: 5px auto;
+            }
+
+            .text
+            {
+            display: flex;
+            align-items: center;
+            text-align:left;
+            width: 90%;
+            height: auto;
+            margin: 5px auto;
+            }
+
+            .hospitaal
+            {
+            background-color: rgb(192, 191, 191);
+            display: flex;
+            float: left;
+            border-radius: 30px;
+            min-height: 200px;
+            margin: 5px;
+            }
+
+            .hospitaal img
+            {
+            display: flex;
+            float: left;
+            width: 300px; 
+            height: 200px;
+            margin: 8px;
+            border-radius: 20%;
+            border: 2px solid white;
+            padding: 5px;
+            }
+            
+            .hospitaal p
+            {
+            text-align:left;
+            float: none;
+            margin: 0px 8px 0px 8px auto;
+            padding: 5px;
+            }
+
+            .minnewater
+            {
+            background-color: rgb(192, 191, 191);
+            display: flex;
+            float: left;
+            border-radius: 30px;
+            min-height: 200px;
+            margin: 5px;
+            }
+
+            .minnewater img
+            {
+            display: flex;
+            float: left;
+            width: 300px; 
+            height: 200px;
+            margin: 8px;
+            border-radius: 20%;
+            border: 2px solid white;
+            padding: 5px;
+            }
+
+            .minnewater p
+            {
+            text-align:left;
+            float: none;
+            height: auto;
+            margin: 0px 8px 0px 8px auto;
+            padding: 8px;
+            }
+
+            
+            /*Stijl van footer*/
+            .foot
+            {
+            background-color: rgb(230, 230, 230);
+            color: black;
+            text-align: center;
+            align-items: center;
+            padding: 8px;
+            margin: 10px auto;
+            }
+
+            .foot p
+            {
+            font-family: mulish, sans-serif;
+            text-align: center;
+            font-size: 10px;
+            margin: 15px;
+            padding: 15px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 class="title">Brugge</h1>
+        </header>
+    
+        <section class="content">
+            <div class="row">
+                <div class="col-2">
+                    <h2>Wist je dat?</h2>
+                    <ul>
+                        <li><p>
+                        Brugge, ook wel bekend als het 'Venetië van het Noorden', dankt deze naam aan de vele grachten die door de stad lopen.
+                        </p></li>
+                        <li><p>
+                        Het 13e-eeuwse Belfort van Brugge, een UNESCO Werelderfgoed, rijst 83 meter hoog op en biedt een schitterend uitzicht over de stad. 
+                        </p></li>
+                        <li><p>
+                        Brugge staat wereldwijd bekend als een topbestemming voor chocoladeliefhebbers. 
+                        </p></li>
+                        <li><p>
+                        Brugge kent een eeuwenlange brouwtraditie. Vandaag de dag zijn er nog diverse ambachtelijke brouwerijen actief die traditionele Belgische bieren zoals Brugse Zot en Straffe Hendrik produceren. 
+                        </p></li>
+                        <li><p>
+                        Brugge is beroemd om zijn kantproductie, een eeuwenoude traditie waarbij ambachtslieden nog steeds de delicate kunst van kantklossen beoefenen. 
+                        </p></li>
+                    </ul>
+                </div>
+
+        <h2>Zien en doen</h2>
+        <!--Attractie 1-->
+        <div class="col-9">
+            <div class="hospitaal">
+                <p class="text">
+                Het Sint-Janshospitaal, een van Europa's oudste en best bewaarde hospitaalgebouwen uit het midden van de 12e eeuw, bood onderdak aan zieken en behoeftige mensen. 
+                De middeleeuwse ziekenzalen, kapel en indrukwekkende zolder zijn nu omgevormd tot een eigentijds museum, met 'gastvrijheid' als centraal thema. Je wordt ondergedompeld in de geschiedenis van zorg en genezing. 
+                Je vindt er een diverse kunstcollectie en gebruiksvoorwerpen, inclusief topstukken van de Vlaamse primitief Hans Memling, zoals het beroemde Ursulaschrijn. 
+                Vergeet ook zeker niet een bezoek te brengen aan de bijbehorende hospitaalapotheek met authentiek 17e-eeuws interieur.
+                <img src="hospitaal.jpg" title="Sint-Janshospitaal" alt="ingang museum Sint-Janshospitaal">
+                </p>
+            </div>
+            
+        <!--Attractie 2-->
+            <div class="minnewater">
+                <p class="text">
+                Eindig je daguitstap in het Minnewater, een van de mooiste plekken in Brugge
+                Vroeger geloofden mensen dat deze plek de thuis van minnen en watergeesten was. Zo kreeg dit stadsmeer zijn naam. Met een tragische liefdeslegende, betoverende bomen en weelderig groen is het een romantische plek bij uitstek. 
+                Langs de oevers van het meer bevinden zich gezellige wandelpaden en bankjes waar bezoekers kunnen ontspannen en genieten van het uitzicht. Een van de meest opvallende kenmerken van het Minnewater is de imposante Minnewaterbrug die over het meer loopt. 
+                Deze sierlijke boogbrug biedt een adembenemend uitzicht op het rustige water en de omliggende omgeving. 
+                <img src="minnewater.jpg" title="Minnewater" alt="Minnewaterpark">
+            </p>
+            </div>
+        </div>
+            </div>
+        </section>
+    
+        <footer class="col-12">
+        <div class="foot">
+            <p>Meer informatie over de verschillende bezienswaardigheden en evenementen in Brugge vind je 
+                <a href="https://www.visitbruges.be/nl">hier</a>.</p>
+            </footer>
+        </div>
+    </body>
+</html>
